@@ -2,7 +2,7 @@ import React from "react";
 import { CONTACT } from "../constants";
 import { animate, motion } from "framer-motion";
 
-const contact = () => {
+const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
       <motion.h1
@@ -37,4 +37,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
